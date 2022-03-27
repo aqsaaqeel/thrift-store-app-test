@@ -1,0 +1,7 @@
+.sub-headings{
+    padding: 2rem;
+    font-size: 4rem;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}

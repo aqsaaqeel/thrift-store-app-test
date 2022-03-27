@@ -1,0 +1,13 @@
+.content-area{
+    display: flex;
+}
+.hero-image .hero-img{
+    position: relative;
+    width: 100%;
+}
+.content-heading .hero-heading{
+    position: absolute;
+    left:10%;
+    bottom: 43%;
+    color: var(--secondary-color);
+}
