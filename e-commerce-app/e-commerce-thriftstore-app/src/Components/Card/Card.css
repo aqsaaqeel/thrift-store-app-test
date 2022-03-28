@@ -4,6 +4,14 @@
     justify-content: space-between;
     flex-wrap: nowrap;
 }
+.basic-card-container{
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    border-radius: 0.3rem;
+    margin: 1rem;
+    max-width: 27rem;
+    box-shadow: 1px 1px 15px 0 var(--tertiary-color);
+}
 .basic-card-container.horizontal{
     display: flex;
     background-color: var(--secondary-color);
@@ -109,8 +117,51 @@
   .man-text{
     color: rgb(255, 255, 255);
     text-shadow: 0.1rem 0.1rem  rgb(73, 71, 71);
-    /* background-color: rgb(248, 237, 237); */
     border-radius: 0.5rem;
     position: relative;
     font-size: 2rem;
   }
+
+
+
+  .button{
+    padding: 1rem 7rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+  .card-photo{
+    width:100%;
+    margin-top: 2rem;
+    max-width: 15rem;
+    max-height: 25rem;
+    border-radius: 0.3rem;
+}
+.photo-badge{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    position: absolute;
+    margin-top: 3rem;
+    margin-right: 1.5rem;
+}
+.photo-area{
+    max-width: 27rem;
+    max-height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card-footer{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -14,7 +14,11 @@
 .logo{
     font-size: 2.5rem;
     margin: 1.5rem;
+    color: var(--secondary-color);
     margin-left: 2rem;
+}
+.logo-link{
+    text-decoration: none;
 }
 .nav-input{
     min-width: 6rem;

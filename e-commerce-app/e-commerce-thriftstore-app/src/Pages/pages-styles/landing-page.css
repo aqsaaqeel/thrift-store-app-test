@@ -11,7 +11,7 @@
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
-.container{
+.landing-container{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
 .small-space{
     margin-bottom: 1rem;
 }
-.card-component-area{
+.landing-card-component-area{
     margin: 2rem;
     display: flex;
     justify-content: space-between;
