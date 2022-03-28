@@ -1,0 +1,44 @@
+.container .navigation ul.main-list{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container .navigation ul.main-list li{
+    position: relative;
+    list-style: none;
+    width: 100%;
+}
+.container .navigation ul.main-list li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bolder;
+}
+.container .navigation ul.main-list li a .title{
+    position: relative;
+    display: block;
+    line-height: 60px;
+
+}
+.navbar.navheading{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar.navlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.small-space{
+    margin-bottom: 1rem;
+}
+.nav-sublists ul{
+    display: contents;
+}

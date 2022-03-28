@@ -1,4 +1,4 @@
-import "./landing-page.css";
+import "./pages-styles/landing-page.css";
 import { Navbar } from "../Components/Navbar/Navbar.jsx";
 import { Card, SmallCard } from "../Components/Card/Card.jsx";
 import { Hero } from "../Components/Hero/Hero.jsx";
@@ -9,15 +9,17 @@ function LandingPage() {
             <div className="main-container">
                 <Navbar />
   
-                <div className="container">
+                <div className="landing-container">
                     <Hero />
 
-                    <div className="card-component-area">
-                        <Card />
+                    <Heading name = "Categories"/>
 
-                        <Card />
+                    <div className="landing-card-component-area">
+                        <Card collection ="Trendy Collection"/>
 
-                        <Card />
+                        <Card collection ="Vibrant Collection"/>
+
+                        <Card collection ="Evergreen Collection"/>
                     </div>
 
                     <Heading name = "Categories"/>

@@ -1,0 +1,25 @@
+:root{
+    --primary-color: #0080ff;
+    --secondary-color: #F5F5F5;
+    --tertiary-color: #9A9A9A;
+    --red-color: #ff0000;
+    font-size: 16px;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: var(--secondary-color);
+}
+
+#my-wishlist-heading{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
