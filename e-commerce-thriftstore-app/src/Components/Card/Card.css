@@ -1,0 +1,167 @@
+.card-component-area{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.basic-card-container{
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    border-radius: 0.3rem;
+    margin: 1rem;
+    max-width: 27rem;
+    box-shadow: 1px 1px 15px 0 var(--tertiary-color);
+}
+.basic-card-container.horizontal{
+    display: flex;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    border-radius: 0.3rem;
+    margin: 1rem;
+    max-width: 60rem;
+    box-shadow: 1px 1px 15px 0 var(--tertiary-color);
+}
+.card-photo.horizontal{
+    width:auto;
+    height: auto;
+    margin: 2rem;
+    max-width: 18rem;
+    max-height: 20rem;
+    border-radius: 0.3rem;
+}
+.photo-area.horizontal{
+    max-width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.price{
+    display: flex;
+}
+.card-subheading.detail{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.card-heading{
+    font-size: 2rem;
+    margin: 5rem 0 0 0.5rem;
+}
+.card-subheading{
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem 0.5rem;
+}
+.card-body{
+    margin: 0.5rem;
+}
+.card-footer.horizontal{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.photo-badge.horizontal{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    position: absolute;
+    margin-top: 3rem;
+    margin-right: 3rem;
+}
+.card-photo{
+    width:100%;
+    margin-top: 2rem;
+    max-width: 12rem;
+    max-height: 12rem;
+    border-radius: 0.3rem;
+}
+.photo-comp{
+    display:flex;
+    justify-content: flex-end;
+}
+.fa-heart{
+    color: var(--red-color);
+}
+.photo-card-container .basic-card-container{
+    position: relative;
+    padding : 0;
+}
+.photo-card-container .card-footer{
+    padding-bottom: 1rem;
+}
+
+.hero-image .hero-img{
+    width: 100%;
+    height: 40rem;
+}
+
+.small-container{
+    min-width: 20rem;
+    max-height: 20rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .man-image{
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    filter: blur(0.05rem);
+    border-radius: 0.5rem;
+  }
+  .man-text{
+    color: rgb(255, 255, 255);
+    text-shadow: 0.1rem 0.1rem  rgb(73, 71, 71);
+    border-radius: 0.5rem;
+    position: relative;
+    font-size: 2rem;
+  }
+
+
+
+  .button{
+    padding: 1rem 7rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+  .card-photo{
+    width:100%;
+    margin-top: 2rem;
+    max-width: 15rem;
+    max-height: 25rem;
+    border-radius: 0.3rem;
+}
+.photo-badge{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    position: absolute;
+    margin-top: 3rem;
+    margin-right: 1.5rem;
+}
+.photo-area{
+    max-width: 27rem;
+    max-height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card-footer{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

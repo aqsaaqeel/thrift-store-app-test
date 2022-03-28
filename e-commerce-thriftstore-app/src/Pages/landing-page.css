@@ -1,0 +1,42 @@
+.main-container{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 6rem;
+}
+.small-space{
+    margin-bottom: 1rem;
+}
+.card-component-area{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.sub-headings{
+    padding: 2rem;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+}
+.category-container{
+    margin :2rem;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
+
